@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  Animale.cpp
+  AssemblyInfo.cpp
+  L3_Simplu.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Animale.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  L3_Simplu.vcxproj -> C:\Users\aarhi\source\repos\L3_Simplu\x64\Debug\L3_Simplu.exe

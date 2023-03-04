@@ -1,0 +1,2 @@
+C:\Users\aarhi\source\repos\tratareErori\tratareErori\x64\Debug\tratareErori.vcxproj.AssemblyReference.cache
+C:\Users\aarhi\source\repos\tratareErori\tratareErori\x64\Debug\tratareErori.vcxproj.SuggestedBindingRedirects.cache

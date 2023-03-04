@@ -1,0 +1,2 @@
+C:\Users\aarhi\source\repos\L3_Simplu\L3_Simplu\x64\Debug\L3_Simplu.vcxproj.AssemblyReference.cache
+C:\Users\aarhi\source\repos\L3_Simplu\L3_Simplu\x64\Debug\L3_Simplu.vcxproj.SuggestedBindingRedirects.cache

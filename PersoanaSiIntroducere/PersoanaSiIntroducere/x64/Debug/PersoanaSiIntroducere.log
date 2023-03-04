@@ -1,0 +1,4 @@
+﻿  PersoanaSiIntroducere.cpp
+C:\Users\aarhi\source\repos\PersoanaSiIntroducere\PersoanaSiIntroducere\PersoanaSiIntroducere.cpp(23,27): warning C4101: 'e': unreferenced local variable
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  PersoanaSiIntroducere.vcxproj -> C:\Users\aarhi\source\repos\PersoanaSiIntroducere\x64\Debug\PersoanaSiIntroducere.exe
