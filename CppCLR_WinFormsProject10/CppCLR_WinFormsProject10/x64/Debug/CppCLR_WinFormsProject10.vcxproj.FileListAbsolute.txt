@@ -1,0 +1,4 @@
+C:\Users\aarhi\source\repos\CppCLR_WinFormsProject10\CppCLR_WinFormsProject10\x64\Debug\CppCLR_WinFormsProject10.vcxproj.AssemblyReference.cache
+C:\Users\aarhi\source\repos\CppCLR_WinFormsProject10\CppCLR_WinFormsProject10\x64\Debug\CppCLR_WinFormsProject10.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\aarhi\source\repos\CppCLR_WinFormsProject10\CppCLR_WinFormsProject10\x64\Debug\CppCLR_WinFormsProject10.Form1.resources
+C:\Users\aarhi\source\repos\CppCLR_WinFormsProject10\CppCLR_WinFormsProject10\x64\Debug\CppCLR_WinFormsProject10.vcxproj.GenerateResource.cache
