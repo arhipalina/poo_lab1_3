@@ -1,0 +1,2 @@
+C:\Users\aarhi\source\repos\CreditOrganizer\CreditOrganizer\x64\Debug\CreditOrganizer.vcxproj.AssemblyReference.cache
+C:\Users\aarhi\source\repos\CreditOrganizer\CreditOrganizer\x64\Debug\CreditOrganizer.vcxproj.SuggestedBindingRedirects.cache
