@@ -1,0 +1,2 @@
+C:\Users\aarhi\source\repos\CentralizatorAparatDeUrgenta\CentralizatorAparatDeUrgenta\x64\Debug\CentralizatorAparatDeUrgenta.vcxproj.AssemblyReference.cache
+C:\Users\aarhi\source\repos\CentralizatorAparatDeUrgenta\CentralizatorAparatDeUrgenta\x64\Debug\CentralizatorAparatDeUrgenta.vcxproj.SuggestedBindingRedirects.cache
