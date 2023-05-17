@@ -9,10 +9,10 @@ private:
 	float gramaj;
 	String^ protocol;
 	int stoc;
+	int barem;
 
 public:
-	Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ procol);
-	Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ procol, int stoc);
+	Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ procol, int barem);
 
 	void setStoc(int stoc);
 	int getStoc(void);
@@ -22,6 +22,7 @@ public:
 	String^ getProtocol(void);
 	int intrariFarmacie(int cantitate);
 	int consum(int cantitate);
+	int getBarem(void);
 
 	Medicament^ operator+(Medicament^ med) {
 		if (med->denumire->CompareTo(denumire) && med->gramaj == gramaj) {

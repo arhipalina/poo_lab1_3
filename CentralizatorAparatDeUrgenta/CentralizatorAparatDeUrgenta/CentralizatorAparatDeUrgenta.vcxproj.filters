@@ -29,6 +29,9 @@
     <ClInclude Include="Medicament.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Centralizator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CentralizatorAparatDeUrgenta.cpp">
@@ -41,6 +44,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Medicament.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Centralizator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -2,26 +2,21 @@
 #include "Medicament.h"
 using namespace System;
 
-Medicament::Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ protocol)
+Medicament::Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ protocol, int barem)
 {
 	this->substanta_activa = substanta_activa;
 	this->denumire = denumire;
 	this->gramaj = gramaj;
 	this->protocol = protocol;
+	this->barem = barem;
+	this->stoc = barem;
 }
 
 
-Medicament::Medicament(String^ substanta_activa, String^ denumire, float gramaj, String^ protocol, int stoc)
-{
-	this->substanta_activa = substanta_activa;
-	this->denumire = denumire;
-	this->gramaj = gramaj;
-	this->protocol = protocol;
-	this->stoc = stoc;
-}
 void Medicament::setStoc(int stoc)
-{
-	this->stoc = stoc;
+{   
+	if(stoc <= this->barem)
+		this->stoc = stoc;
 }
 
 int Medicament::getStoc(void)
@@ -48,8 +43,10 @@ String^ Medicament::getProtocol(void)
 }
 
 int Medicament::intrariFarmacie(int cantitate)
-{
-	stoc = stoc + cantitate;
+{   
+	if (stoc + cantitate <= barem) {
+		stoc = stoc + cantitate;
+	}
 	return stoc;
 
 }
@@ -71,9 +68,11 @@ void Medicament::afiseaza(void) {
 String^ Medicament::ToString(void) 
 {
 	return "| " + denumire + "\t| " + substanta_activa + "\t| " + gramaj.ToString() + 
-		"\t| " + stoc.ToString() + "\t| " + protocol + "\t|";
+		"\t| " + stoc.ToString() + "\t| " + protocol + "\t|" + barem.ToString() + "\t|";
 }
-
+int Medicament::getBarem(void) {
+	return this->barem;
+}
 
 
 

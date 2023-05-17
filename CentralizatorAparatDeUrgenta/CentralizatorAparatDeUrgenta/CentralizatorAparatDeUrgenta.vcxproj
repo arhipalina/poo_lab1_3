@@ -127,12 +127,14 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Centralizator.h" />
     <ClInclude Include="Medicament.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Centralizator.cpp" />
     <ClCompile Include="CentralizatorAparatDeUrgenta.cpp" />
     <ClCompile Include="Medicament.cpp" />
     <ClCompile Include="pch.cpp">
